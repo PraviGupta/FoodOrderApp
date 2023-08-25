@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434552496178",
+    "project_id": "cravewave-86192",
+    "storage_bucket": "cravewave-86192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434552496178:android:d362dfe2f7eade4d3b9c2b",
+        "android_client_info": {
+          "package_name": "com.example.project1301"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434552496178-c1gds5b24hnmff8qfl0a89gp64c25n72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-SjapTlCkWAcuPILgPvySND6O0vObkkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434552496178-c1gds5b24hnmff8qfl0a89gp64c25n72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

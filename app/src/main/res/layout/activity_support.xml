@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/support_bg"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ⒸⓇⒶⓋⒺⓌⒶⓋⒺ"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vikram"
+        android:text="Vikram Gupta"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:textColor="#FDFCFC"
+        app:drawableLeftCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vikramcontact"
+        android:text="+919748824829"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@+id/vikram"
+        android:textColor="#3366CC"
+        app:drawableLeftCompat="@drawable/baseline_call_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vikrammail"
+        android:layout_centerHorizontal="true"
+        android:text="vikramgkp2409@gmail.com"
+        android:layout_below="@+id/vikramcontact"
+        android:textSize="20sp"
+        android:textColor="#3366CC"
+
+        app:drawableLeftCompat="@drawable/baseline_alternate_email_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vishwas"
+        android:text="Vishwas Gupta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/vikrammail"
+        android:textSize="28sp"
+        android:textColor="#FDFCFC"
+        app:drawableLeftCompat="@drawable/baseline_account_circle_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vishwascontact"
+        android:text="+917860745246"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/vishwas"
+        android:textSize="20sp"
+        android:textColor="#3366CC"
+        app:drawableLeftCompat="@drawable/baseline_call_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vishwasmail"
+        android:layout_centerHorizontal="true"
+        android:text="vishwasgupta666@gmail.com"
+        android:layout_below="@+id/vishwascontact"
+        android:textSize="20sp"
+        android:textColor="#3366CC"
+        app:drawableLeftCompat="@drawable/baseline_alternate_email_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sonu"
+        android:text="Sonu Gupta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/vishwasmail"
+        android:textSize="28sp"
+        android:textColor="#FDFCFC"
+        app:drawableLeftCompat="@drawable/baseline_account_circle_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sonucontact"
+        android:text="+918874062622"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/sonu"
+        android:textSize="20sp"
+        android:textColor="#3366CC"
+        app:drawableLeftCompat="@drawable/baseline_call_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sonumail"
+        android:text="sg86377@gmail.com"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sonucontact"
+        android:textSize="20sp"
+        android:textColor="#3366CC"
+        app:drawableLeftCompat="@drawable/baseline_alternate_email_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pravi"
+        android:text="Pravi Gupta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="28sp"
+        android:layout_below="@id/sonumail"
+        android:textColor="#FDFCFC"
+        app:drawableLeftCompat="@drawable/baseline_account_circle_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pravicontact"
+        android:text="+919519002524"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pravi"
+        android:textSize="20sp"
+        android:textColor="#3366CC"
+        app:drawableLeftCompat="@drawable/baseline_call_24" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pravimail"
+        android:layout_centerHorizontal="true"
+        android:text="pravi.gupta@gmail.com"
+        android:layout_below="@+id/pravicontact"
+        android:textSize="20sp"
+        android:textColor="#3366CC"
+        app:drawableLeftCompat="@drawable/baseline_alternate_email_24" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/back"
+        android:layout_below="@+id/pravimail"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+</layout>
